@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>MAROON</title>
+</head>
+
+<body>
+    <header class="header">
+        <button class="header__menu-button" aria-label="Меню"></button>
+        <a class="logo" href="index.html" aria-label="Логотип Maroon"></a>
+        <nav class="header__navigation navigation">
+            <!--разобраться, что за див-->
+            <div class="navigation__overlay"></div>
+            <div class="navigation__content">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#">Каталог</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">О нас</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
+                </ul>
+                <ul class="navigation__contacts social">
+                    <li class="social__item"><a class="social__link" href="#" aria-label="Facebook"></a></li>
+                    <li class="social__item"><a class="social__link" href="#" aria-label="Instagram"></a></li>
+                    <li class="social__item"><a class="social__link" href="#" aria-label="Twitter"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="header__actions user-actions">
+            <li class="user-actions__item"><a class="user-actions__link user-actions__user" href="#"
+                    aria-label="Пользователь"></a></li>
+            <li class="user-actions__item"><a class="user-actions__link user-actions__cart" href="#"
+                    aria-label="Корзина"></a></li>
+        </ul>
+    </header>
+
+    <main class="main">
+        <section class="main__block about">
+            <div class="about__container">
+                <div class="about__content">
+                    <h1 class="about__title">MAROON</h1>
+                    <p class="about__description">Натуральная косметика для бережного ухода за кожей</p>
+                    <a class="about__button button" href="#">Подробнее</a>
+                </div>
+            </div>
+            <a class="about__item promo-card" href="#">Уход для лица<div class="promo-card__text"><span>Уход для
+                        лица</span></div></a>
+            <a class="about__item promo-card" href="#">Уход для тела<div class="promo-card__text"><span>Уход для
+                        тела</span></div></a>
+        </section>
+
+        <section class="main__block best-sellers">
+            <div class="best-sellers__text">
+                <h2 class="best-sellers__title">Бестселлеры</h2>
+                <p class="best-sellers__description">Легендарные продукты, завоевавшие любовь наших клиентов</p>
+            </div>
+            <div class="best-sellers__slider">
+                <div class="">
+                    <div>
+                        <h3>High</h3>
+                        <p>крем для лица</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div>
+                        <h3>Rest</h3>
+                        <p>минеральная пудра</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div>
+                        <h3>Rose</h3>
+                        <p>крем для лица</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div>
+                        <h3>Milk</h3>
+                        <p>масло для тела</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+            <a href="#">Смотреть все</a>
+        </section>
+
+        <section class="main__block banner">
+            <div class="banner__content">
+                <h2 class="banner__title">Встречайте весну вместе с нами</h2>
+                <p class="banner__description">Попробуйте новую коллекцию ухаживающих средств для лица с SPF защитой</p>
+                <a class="banner__link button" href="#">Подробнее</a>
+            </div>
+            
+        </section>
+
+        <section class="main__block individual">
+            <div class="individual__container">
+                <div class="individual__content">
+                    <h2 class="individual__title">Индивидуальный уход</h2>
+                    <p class="individual__text individual__text_hidden-mobile">Не всегда очевидно, какие элементы и минералы необходимы коже, а многочисленные эксперименты с разными
+                        средствами только ухудшают ее качество.</p>
+                    <p class="individual__text">Заполните анкету, и мы подберем уход, подходящий именно вам, учитывая ваш образ жизни, место жительства и
+                        другие факторы. </p>
+                    <a class="individual__link button" href="#">Заполните анкету</a>
+                </div>
+            </div>            
+        </section>
+
+        <section class="main__block history">
+            <div class="history__container">
+                <p class="history__title">“Мы стремимся сделать уход за кожей доступным и приятным ритуалом для всех, кто хочет заботиться о себе и
+                своем теле”</p>
+                <a class="history__link button" href="#" aria-label="Наша история">Наша история</a>
+            </div>            
+        </section>
+
+        <section>
+            <div>
+                <div>
+                    <img src="#" alt="">
+                </div>
+                <div>
+                    <h2>Присоединяйтесь в нам</h2>
+                    <p>Подпишитесь на наш аккаунт @marooncare и узнавайте о новиках и акциях первыми</p>
+                    <a href="#">Подписаться</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Контакты</h2>
+            <ul>
+                <li>
+                    <h3>Адрес</h3>
+                    <p>Санкт-Петербург, ул. Большая Конюшенная, 19</p>
+                </li>
+                <li>
+                    <h3>Телефон</h3>
+                    <a href="tel:+79238889060">+7 (923) 888-90-60</a>
+                </li>
+                <li>
+                    <h3>E-mail</h3>
+                    <a href="mailto:info@maroon.ru">
+                        <info@maroon.ru/a> </li> </ul> <ul>
+                <li><a href="#" aria-label="Facebook"></a></li>
+                <li><a href="#" aria-label="Instagram"></a></li>
+                <li><a href="#" aria-label="Twitter"></a></li>
+            </ul>
+            <!--разобраться с картой-->
+            <div class="contacts__map-wrapper map" id="map" data-center="59.93791367332671,30.32282782142634"
+                data-zoom="17" data-hint-content="" data-balloon-content=""></div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="index.html" aria-label="Логотип Maroon"></a>
+        <ul>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Магазины</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul>
+            <li><a href="#" aria-label="Facebook">fb</a></li>
+            <li><a href="#" aria-label="Instagram">inst</a></li>
+            <li><a href="#" aria-label="Twitter">tw</a></li>
+        </ul>
+        <div>
+            <p>Maroon Ⓒ 2020 Все права защищены</p>
+            <p><a href="#">Политика конфиденциальности</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
